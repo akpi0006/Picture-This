@@ -14,62 +14,13 @@
     <div class="title">
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
+   
     </div>
-  <picture>
-          <!-- Square image--> 
-
-          <!-- take the first row of
-              viewport and make each one 
-              of it the min-width cause the 
-              Square image is view at 
-              half the viewport -->
-          <source srcset="images/museum-square-480.jpg,
-                          images/museum-square-960.jpg 2x,
-                          images/museum-square-1440.jpg 3x"
-          media="(min-width:960px)" />
-          
-          <source srcset="images/museum-square-640.jpg,
-                         images/museum-square-1280.jpg 2x,
-                         images/museum-square-1920.jpg 3x"
-          media="(min-width:1280px)" />
-        
-          <source srcset="images/museum-square-800.jpg,
-                        images/museum-square-1600.jpg 2x,
-                        images/museum-square-2400.jpg 3x"
-          media="(min-width:1600px)" /> 
-
-          
-       <!--landscape image-->
-
-       <!--take the first row of
-           viewport and make each one of 
-           it the max-width cause its 
-           960px and above-->
-
-          <source srcset="images/museum-landscape-320.jpg,
-                          images/museum-landscape-640.jpg 2x,
-                          images/museum-landscape-960.jpg 3x"
-          media="(max-width:320px)" /> 
-
-          <source srcset="images/museum-landscape-480.jpg,
-                          images/museum-landscape-960.jpg 2x,
-                          images/museum-landscape-1440.jpg 3x"
-          media="(max-width:480px)" />
-
-          <source srcset="images/museum-landscape-720.jpg,
-                         images/museum-landscape-1440.jpg 2x,
-                         images/museum-landscape-2160.jpeg 3x"
-          media="(max-width:720px)" />
-
-          <source srcset="images/museum-landscape-960.jpg,
-                          images/museum-landscape-1920.jpg 2x,
-                          images/museum-landscape-2880.jpg 3x"
-          media="(max-width:960px)" />
-
-          <img src="images/museum-landscape-2880.jpeg" 
-          alt="museum-picture"> 
-
-  </picture>
+          <img srcset="images/resized-images/museum-320_x_180.png 250w,
+                      images/resized-images/museum-640_x_360.jpg 570w,
+                    images/resized-images/museum-960_x_540.jpg 780w,
+                    images/resized-images/museum-1600_x_900.jpg 960w"
+          alt="museum photo">
 
   </header>
 </body>
