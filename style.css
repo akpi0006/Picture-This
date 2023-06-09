@@ -31,11 +31,13 @@ h4 {
 
 img {
   display: block;
+  /* makes responsive */
   max-width: 100%;
 }
 
 @media (min-width: 960px) {
   .header {
+    /* adds with to header */
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
   }
